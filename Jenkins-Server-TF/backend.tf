@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket         = "techlearnc2024"
+    bucket         = "gentlewolff"
     region         = "us-east-1"
     key            = "terraform.tfstate"
     dynamodb_table = "Lock-Files"
